@@ -30,3 +30,4 @@ Assignment Checklist
 Preview
 ========
 
+<a href="/luhman/CodePath/blob/master/Project-Facebook/preview.gif" target="_blank"><img src="/luhman/CodePath/raw/master/Project-Facebook/preview.gif" alt="CodePath: Week 1 Homework iOS Preview" style="max-width:100%;" /></a>
