@@ -8,19 +8,19 @@ How many hours did it take to complete? <strong> ~2 </strong>
 Assignment Checklist
 ========
 
-&#9745; Add a container view and modify properties: backgroundColor, cornerRadius, font, textColor, shadowOffset.
+&#10004; Add a container view and modify properties: backgroundColor, cornerRadius, font, textColor, shadowOffset.
 
-&#9745; Add buttons with different images for default and highlighted.
+&#10004; Add buttons with different images for default and highlighted.
 
-&#9745; Add UIImageViews and choose the right mode: aspect fill, aspect fit, etc.
+&#10004; Add UIImageViews and choose the right mode: aspect fill, aspect fit, etc.
 
-&#9745; Add a UITextField with a background image.
+&#10004; Add a UITextField with a background image.
 
-&#9745; Add UILabels with attributed text (instead of plain text), so that you can bold individual words.
+&#10004; Add UILabels with attributed text (instead of plain text), so that you can bold individual words.
 
-&#9745; Optional: Move the textfield when the keyboard appears
+&#10004; Optional: Move the textfield when the keyboard appears
 
-&#9745; Optional: Configure the autoresizingMasks to support rotation
+&#10004; Optional: Configure the autoresizingMasks to support rotation
 
 &#9744; Optional: Setup CocoaPods for managing 3rd party libraries and use TTTAttributedLabel to style the link and make it clickable
 
