@@ -1,30 +1,36 @@
-CodePath: Week 1 Homework
+CodePath: Week 2 Homework
 ========
 
-Create an unscrollable detail view of Facebook post with gesture keyboard interactions <a href="http://guides.codepath.com/ios/Week-1-Homework" target="_blank" title="Week 1 Homework Guide">Week 1 Homework Guide</a>.
+The homework this week is to implement the Facebook login flow with loading and error states <a href="http://guides.codepath.com/ios/Week-2-Homework" target="_blank" title="Week 2 Homework Guide">Week 2 Homework Guide</a>.
 
-How many hours did it take to complete? <strong> ~2 </strong>
+How many hours did it take to complete? <strong> ~10 </strong>
 
 Assignment Checklist
 ========
 
-&#10004; Add a container view and modify properties: backgroundColor, cornerRadius, font, textColor, shadowOffset.
+Facebook Login Page Features
 
-&#10004; Add buttons with different images for default and highlighted.
+&#10004; Tapping in the UITextField repositions the elements, as shown in the screenshots.
 
-&#10004; Add UIImageViews and choose the right mode: aspect fill, aspect fit, etc.
+&#10004; Tapping anywhere dismisses the keyboard
 
-&#10004; Add a UITextField with a background image.
+&#10004; If email and password field are both blank, button should be disabled.
 
-&#10004; Add UILabels with attributed text (instead of plain text), so that you can bold individual words.
+&#10004; Password field should be secure with no autocorrection.
 
-&#10004; Optional: Move the textfield when the keyboard appears
+&#10004; After tapping log in button, show the loading indicator in the button. After a 2 second delay, check the password.
 
-&#10004; Optional: Configure the autoresizingMasks to support rotation
+Facebook Feed
 
-&#9744; Optional: Setup CocoaPods for managing 3rd party libraries and use TTTAttributedLabel to style the link and make it clickable
+&#10004; Navigation bar should have the search button and messages button.
 
-&#9744; Optional: Implement the same page programatically without using Interface Builder
+&#10004; Immediately after launch, display the loading indicator.
+
+&#10004; After 2 seconds, show the feed, which is a long image in a scrollable view.
+
+&#9744; Optional: Tapping the status button should show the compose view w/ the keyboard 
+
+
 
 
 Preview
