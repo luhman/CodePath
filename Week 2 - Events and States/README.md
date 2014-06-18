@@ -8,7 +8,7 @@ How many hours did it take to complete? <strong> ~10 </strong>
 Assignment Checklist
 ========
 
-Facebook Login Page Features
+<strong>Facebook Login Page Features</strong>
 
 &#10004; Tapping in the UITextField repositions the elements, as shown in the screenshots.
 
@@ -23,7 +23,7 @@ Facebook Login Page Features
 * If the password is 'password', transition to the next screen.
 * If the password is anything else, display the password error alert.
 
-Facebook Feed
+<strong>Facebook Feed</strong>
 
 &#10004; Navigation bar should have the search button and messages button.
 
@@ -35,7 +35,7 @@ Facebook Feed
 
 &#9744; Optional: Tapping a profile picture should push a profile page 
 
-More
+<strong>More</strong>
 
 &#9744; Optional: Add a scrollable view of the "More" page.
 
