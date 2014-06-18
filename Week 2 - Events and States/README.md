@@ -3,7 +3,7 @@ CodePath: Week 2 Homework
 
 The homework this week is to implement the Facebook login flow with loading and error states <a href="http://guides.codepath.com/ios/Week-2-Homework" target="_blank" title="Week 2 Homework Guide">Week 2 Homework Guide</a>.
 
-How many hours did it take to complete? <strong> ~10 </strong>
+How many hours did it take to complete? <strong> ~16 </strong>
 
 Assignment Checklist
 ========
@@ -53,6 +53,6 @@ Assignment Checklist
 Preview
 ========
 
-<a href="https://github.com/luhman/CodePath/blob/master/Project%20Facebook/preview.gif----" target="_blank"><img src="https://raw.githubusercontent.com/luhman/CodePath/master/Project%20Facebook/preview.gif---" alt="CodePath: Week 1 Homework iOS Preview" style="max-width:100%;" /></a>
+<a href="https://github.com/luhman/CodePath/blob/master/Week%202%20-%20Events%20and%20States/preview.gif" target="_blank"><img src="https://raw.githubusercontent.com/luhman/CodePath/master/Week%202%20-%20Events%20and%20States/preview.gif" alt="CodePath: Week 1 Homework iOS Preview" style="max-width:100%;" /></a>
 
-<a href="https://github.com/luhman/CodePath/blob/master/Project%20Facebook/landscape.png---" target="_blank"><img src="https://raw.githubusercontent.com/luhman/CodePath/master/Project%20Facebook/landscape.png---" alt="CodePath: Week 1 Homework iOS Preview" style="max-width:100%;" /></a>
+
