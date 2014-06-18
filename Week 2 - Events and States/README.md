@@ -20,6 +20,9 @@ Facebook Login Page Features
 
 &#10004; After tapping log in button, show the loading indicator in the button. After a 2 second delay, check the password.
 
+* If the password is 'password', transition to the next screen.
+* If the password is anything else, display the password error alert.
+
 Facebook Feed
 
 &#10004; Navigation bar should have the search button and messages button.
@@ -30,12 +33,26 @@ Facebook Feed
 
 &#9744; Optional: Tapping the status button should show the compose view w/ the keyboard 
 
+&#9744; Optional: Tapping a profile picture should push a profile page 
 
+More
+
+&#9744; Optional: Add a scrollable view of the "More" page.
+
+&#9744; Optional: Upon tapping Log Out, return to the login screen.
+
+&#9744; Optional: Add a UIRefreshControl for a pull to refresh
+
+&#9744; Optional: After a pull to refresh, delay for 2 seconds before ending
+
+&#9744; Optional: After a pull to refresh, delay for 2 seconds before ending
+
+* Every other time, display an error message (optional)
 
 
 Preview
 ========
 
-<a href="https://github.com/luhman/CodePath/blob/master/Project%20Facebook/preview.gif" target="_blank"><img src="https://raw.githubusercontent.com/luhman/CodePath/master/Project%20Facebook/preview.gif" alt="CodePath: Week 1 Homework iOS Preview" style="max-width:100%;" /></a>
+<a href="https://github.com/luhman/CodePath/blob/master/Project%20Facebook/preview.gif----" target="_blank"><img src="https://raw.githubusercontent.com/luhman/CodePath/master/Project%20Facebook/preview.gif---" alt="CodePath: Week 1 Homework iOS Preview" style="max-width:100%;" /></a>
 
-<a href="https://github.com/luhman/CodePath/blob/master/Project%20Facebook/landscape.png" target="_blank"><img src="https://raw.githubusercontent.com/luhman/CodePath/master/Project%20Facebook/landscape.png" alt="CodePath: Week 1 Homework iOS Preview" style="max-width:100%;" /></a>
+<a href="https://github.com/luhman/CodePath/blob/master/Project%20Facebook/landscape.png---" target="_blank"><img src="https://raw.githubusercontent.com/luhman/CodePath/master/Project%20Facebook/landscape.png---" alt="CodePath: Week 1 Homework iOS Preview" style="max-width:100%;" /></a>
