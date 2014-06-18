@@ -1,0 +1,18 @@
+//
+//  Prefix header
+//
+//  Created by David Luhman on 6/15/14.
+//  Copyright (c) 2014 codepath. All rights reserved.
+//
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
