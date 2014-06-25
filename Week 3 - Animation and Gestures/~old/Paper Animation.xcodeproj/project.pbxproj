@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32E97B8A195B952D003949D3 /* PaperViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E97B88195B952D003949D3 /* PaperViewController.m */; };
+		32E97B8B195B952D003949D3 /* PaperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E97B89195B952D003949D3 /* PaperViewController.xib */; };
 		B02C7668195288D700E36375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02C7667195288D700E36375 /* Foundation.framework */; };
 		B02C766A195288D700E36375 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02C7669195288D700E36375 /* CoreGraphics.framework */; };
 		B02C766C195288D700E36375 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B02C766B195288D700E36375 /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32E97B87195B952D003949D3 /* PaperViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PaperViewController.h; path = Revised/PaperViewController.h; sourceTree = "<group>"; };
+		32E97B88195B952D003949D3 /* PaperViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PaperViewController.m; path = Revised/PaperViewController.m; sourceTree = "<group>"; };
+		32E97B89195B952D003949D3 /* PaperViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PaperViewController.xib; path = Revised/PaperViewController.xib; sourceTree = "<group>"; };
 		B02C7664195288D700E36375 /* Paper Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paper Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B02C7667195288D700E36375 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		B02C7669195288D700E36375 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -85,6 +90,9 @@
 				B09F66C319528A6C003CDF14 /* PaperViewController.h */,
 				B09F66C419528A6C003CDF14 /* PaperViewController.m */,
 				B09F66C519528A6C003CDF14 /* PaperViewController.xib */,
+				32E97B87195B952D003949D3 /* PaperViewController.h */,
+				32E97B88195B952D003949D3 /* PaperViewController.m */,
+				32E97B89195B952D003949D3 /* PaperViewController.xib */,
 				B02C766D195288D700E36375 /* Paper Animation */,
 				B02C7686195288D800E36375 /* Paper AnimationTests */,
 				B02C7666195288D700E36375 /* Frameworks */,
@@ -230,6 +238,7 @@
 				B02C7672195288D700E36375 /* InfoPlist.strings in Resources */,
 				B09F66C719528A6C003CDF14 /* PaperViewController.xib in Resources */,
 				B02C767A195288D700E36375 /* Images.xcassets in Resources */,
+				32E97B8B195B952D003949D3 /* PaperViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +260,7 @@
 				B09F66C619528A6C003CDF14 /* PaperViewController.m in Sources */,
 				B02C7678195288D700E36375 /* AppDelegate.m in Sources */,
 				B02C7674195288D700E36375 /* main.m in Sources */,
+				32E97B8A195B952D003949D3 /* PaperViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
