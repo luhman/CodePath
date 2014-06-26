@@ -13,7 +13,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *trendingImageView;
 @property (weak, nonatomic) IBOutlet UIScrollView *trendingScrollview;
 @property (nonatomic, assign) CGPoint originalState;
-@property (weak, nonatomic) IBOutlet UIView *mainView;
+@property (weak, nonatomic) IBOutlet UIView *previousPosition;
 
 
 @end
@@ -69,10 +69,10 @@
     }
     
     // Set Offset
-    self.mainView.center = CGPointMake(self.mainView.center.x, self.mainView.center.y - difference);
+    self.previousPosition.center = CGPointMake(self.previousPosition.center.x, self.previousPosition.center.y - difference);
     
     // You hit the ceiling
-    if (self.mainView.center.y < 284) {
+    if (self.previousPosition.center.y < 284) {
         
         if (panGestureRecognizer.state == UIGestureRecognizerStateEnded) {
             
@@ -83,34 +83,34 @@
                                 options: 0
                              animations: ^
              {
-                 self.mainView.center = CGPointMake(160, 284);
+                 self.previousPosition.center = CGPointMake(160, 284);
              }
                              completion: nil
              ];
             
         }
-        else if(panGestureRecognizer.state == UIGestureRecognizerStateChanged && self.mainView.center.y < 244) {
-            self.mainView.center = CGPointMake(160, 244);
+        else if(panGestureRecognizer.state == UIGestureRecognizerStateChanged && self.previousPosition.center.y < 244) {
+            self.previousPosition.center = CGPointMake(160, 244);
         }
     }
     
-    else if(self.mainView.center.y == 852) {
-        self.mainView.center = CGPointMake(160, 812);
+    else if(self.previousPosition.center.y == 852) {
+        self.previousPosition.center = CGPointMake(160, 812);
     }
     
     
     // Resting place
     if (panGestureRecognizer.state == UIGestureRecognizerStateEnded) {
-        if (self.mainView.center.y > 300 && velocity.y > 10) {
+        if (self.previousPosition.center.y > 300 && velocity.y > 10) {
             [UIView animateWithDuration:.5 animations:^{
-                self.mainView.center = CGPointMake(160, 812);
+                self.previousPosition.center = CGPointMake(160, 812);
             }];
         }
         
         // Come back up here
-        else if(self.mainView.center.y < 800 && velocity.y < -10) {
+        else if(self.previousPosition.center.y < 800 && velocity.y < -10) {
             [UIView animateWithDuration:.5 animations:^{
-                self.mainView.center = CGPointMake(160, 284);
+                self.previousPosition.center = CGPointMake(160, 284);
             }];
         }
     }
