@@ -112,10 +112,8 @@
 		32E97BDF195B9D9D003949D3 /* Paper Animation */ = {
 			isa = PBXGroup;
 			children = (
+				32E97C0D195B9F79003949D3 /* ViewControllers */,
 				32E97BE8195B9D9D003949D3 /* AppDelegate.h */,
-				32E97C08195B9DBD003949D3 /* headlinesViewController.h */,
-				32E97C09195B9DBD003949D3 /* headlinesViewController.m */,
-				32E97C0A195B9DBD003949D3 /* headlinesViewController.xib */,
 				32E97BE9195B9D9D003949D3 /* AppDelegate.m */,
 				32E97BEB195B9D9D003949D3 /* Images.xcassets */,
 				32E97BE0195B9D9D003949D3 /* Supporting Files */,
@@ -150,6 +148,16 @@
 				32E97BFB195B9D9D003949D3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32E97C0D195B9F79003949D3 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				32E97C08195B9DBD003949D3 /* headlinesViewController.h */,
+				32E97C09195B9DBD003949D3 /* headlinesViewController.m */,
+				32E97C0A195B9DBD003949D3 /* headlinesViewController.xib */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
