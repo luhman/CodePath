@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C39CB277-F5DB-48C9-B351-2D75ECADEA00</string>
+	<key>IDESourceControlProjectName</key>
+	<string>tipcalculator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3EE8D475-FA79-41FC-BAC4-D87D9EACF9CD</key>
+		<string>https://github.com/luhman/CodePath.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Program Test - Tip Calulator/xCode Files/tipcalculator.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3EE8D475-FA79-41FC-BAC4-D87D9EACF9CD</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/luhman/CodePath.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3EE8D475-FA79-41FC-BAC4-D87D9EACF9CD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3EE8D475-FA79-41FC-BAC4-D87D9EACF9CD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CodePath</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32E03CC3195CB40D0026332F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E03CC2195CB40D0026332F /* Foundation.framework */; };
+		32E03CC5195CB40D0026332F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E03CC4195CB40D0026332F /* CoreGraphics.framework */; };
+		32E03CC7195CB40D0026332F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E03CC6195CB40D0026332F /* UIKit.framework */; };
+		32E03CCD195CB40D0026332F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32E03CCB195CB40D0026332F /* InfoPlist.strings */; };
+		32E03CCF195CB40D0026332F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E03CCE195CB40D0026332F /* main.m */; };
+		32E03CD3195CB40D0026332F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E03CD2195CB40D0026332F /* AppDelegate.m */; };
+		32E03CD5195CB40D0026332F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32E03CD4195CB40D0026332F /* Images.xcassets */; };
+		32E03CDC195CB40D0026332F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E03CDB195CB40D0026332F /* XCTest.framework */; };
+		32E03CDD195CB40D0026332F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E03CC2195CB40D0026332F /* Foundation.framework */; };
+		32E03CDE195CB40D0026332F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32E03CC6195CB40D0026332F /* UIKit.framework */; };
+		32E03CE6195CB40D0026332F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32E03CE4195CB40D0026332F /* InfoPlist.strings */; };
+		32E03CE8195CB40D0026332F /* FB_MessagesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E03CE7195CB40D0026332F /* FB_MessagesTests.m */; };
+		32E03CF4195CB41D0026332F /* NewsfeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E03CF2195CB41D0026332F /* NewsfeedViewController.m */; };
+		32E03CF5195CB41D0026332F /* NewsfeedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32E03CF3195CB41D0026332F /* NewsfeedViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32E03CDF195CB40D0026332F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32E03CB7195CB40D0026332F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32E03CBE195CB40D0026332F;
+			remoteInfo = "FB Messages";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32E03CBF195CB40D0026332F /* FB Messages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FB Messages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E03CC2195CB40D0026332F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32E03CC4195CB40D0026332F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		32E03CC6195CB40D0026332F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		32E03CCA195CB40D0026332F /* FB Messages-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FB Messages-Info.plist"; sourceTree = "<group>"; };
+		32E03CCC195CB40D0026332F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32E03CCE195CB40D0026332F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32E03CD0195CB40D0026332F /* FB Messages-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FB Messages-Prefix.pch"; sourceTree = "<group>"; };
+		32E03CD1195CB40D0026332F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32E03CD2195CB40D0026332F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32E03CD4195CB40D0026332F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		32E03CDA195CB40D0026332F /* FB MessagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FB MessagesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32E03CDB195CB40D0026332F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		32E03CE3195CB40D0026332F /* FB MessagesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FB MessagesTests-Info.plist"; sourceTree = "<group>"; };
+		32E03CE5195CB40D0026332F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32E03CE7195CB40D0026332F /* FB_MessagesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FB_MessagesTests.m; sourceTree = "<group>"; };
+		32E03CF1195CB41D0026332F /* NewsfeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsfeedViewController.h; sourceTree = "<group>"; };
+		32E03CF2195CB41D0026332F /* NewsfeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsfeedViewController.m; sourceTree = "<group>"; };
+		32E03CF3195CB41D0026332F /* NewsfeedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewsfeedViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32E03CBC195CB40D0026332F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E03CC5195CB40D0026332F /* CoreGraphics.framework in Frameworks */,
+				32E03CC7195CB40D0026332F /* UIKit.framework in Frameworks */,
+				32E03CC3195CB40D0026332F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E03CD7195CB40D0026332F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E03CDC195CB40D0026332F /* XCTest.framework in Frameworks */,
+				32E03CDE195CB40D0026332F /* UIKit.framework in Frameworks */,
+				32E03CDD195CB40D0026332F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32E03CB6195CB40D0026332F = {
+			isa = PBXGroup;
+			children = (
+				32E03CC8195CB40D0026332F /* FB Messages */,
+				32E03CE1195CB40D0026332F /* FB MessagesTests */,
+				32E03CC1195CB40D0026332F /* Frameworks */,
+				32E03CC0195CB40D0026332F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32E03CC0195CB40D0026332F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32E03CBF195CB40D0026332F /* FB Messages.app */,
+				32E03CDA195CB40D0026332F /* FB MessagesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32E03CC1195CB40D0026332F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32E03CC2195CB40D0026332F /* Foundation.framework */,
+				32E03CC4195CB40D0026332F /* CoreGraphics.framework */,
+				32E03CC6195CB40D0026332F /* UIKit.framework */,
+				32E03CDB195CB40D0026332F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32E03CC8195CB40D0026332F /* FB Messages */ = {
+			isa = PBXGroup;
+			children = (
+				32E03CD1195CB40D0026332F /* AppDelegate.h */,
+				32E03CF6195CB5BC0026332F /* View Controllers */,
+				32E03CD2195CB40D0026332F /* AppDelegate.m */,
+				32E03CD4195CB40D0026332F /* Images.xcassets */,
+				32E03CC9195CB40D0026332F /* Supporting Files */,
+			);
+			path = "FB Messages";
+			sourceTree = "<group>";
+		};
+		32E03CC9195CB40D0026332F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32E03CCA195CB40D0026332F /* FB Messages-Info.plist */,
+				32E03CCB195CB40D0026332F /* InfoPlist.strings */,
+				32E03CCE195CB40D0026332F /* main.m */,
+				32E03CD0195CB40D0026332F /* FB Messages-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32E03CE1195CB40D0026332F /* FB MessagesTests */ = {
+			isa = PBXGroup;
+			children = (
+				32E03CE7195CB40D0026332F /* FB_MessagesTests.m */,
+				32E03CE2195CB40D0026332F /* Supporting Files */,
+			);
+			path = "FB MessagesTests";
+			sourceTree = "<group>";
+		};
+		32E03CE2195CB40D0026332F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32E03CE3195CB40D0026332F /* FB MessagesTests-Info.plist */,
+				32E03CE4195CB40D0026332F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32E03CF6195CB5BC0026332F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				32E03CF1195CB41D0026332F /* NewsfeedViewController.h */,
+				32E03CF2195CB41D0026332F /* NewsfeedViewController.m */,
+				32E03CF3195CB41D0026332F /* NewsfeedViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32E03CBE195CB40D0026332F /* FB Messages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E03CEB195CB40D0026332F /* Build configuration list for PBXNativeTarget "FB Messages" */;
+			buildPhases = (
+				32E03CBB195CB40D0026332F /* Sources */,
+				32E03CBC195CB40D0026332F /* Frameworks */,
+				32E03CBD195CB40D0026332F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FB Messages";
+			productName = "FB Messages";
+			productReference = 32E03CBF195CB40D0026332F /* FB Messages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32E03CD9195CB40D0026332F /* FB MessagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E03CEE195CB40D0026332F /* Build configuration list for PBXNativeTarget "FB MessagesTests" */;
+			buildPhases = (
+				32E03CD6195CB40D0026332F /* Sources */,
+				32E03CD7195CB40D0026332F /* Frameworks */,
+				32E03CD8195CB40D0026332F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32E03CE0195CB40D0026332F /* PBXTargetDependency */,
+			);
+			name = "FB MessagesTests";
+			productName = "FB MessagesTests";
+			productReference = 32E03CDA195CB40D0026332F /* FB MessagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32E03CB7195CB40D0026332F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = codepath;
+				TargetAttributes = {
+					32E03CD9195CB40D0026332F = {
+						TestTargetID = 32E03CBE195CB40D0026332F;
+					};
+				};
+			};
+			buildConfigurationList = 32E03CBA195CB40D0026332F /* Build configuration list for PBXProject "FB Messages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32E03CB6195CB40D0026332F;
+			productRefGroup = 32E03CC0195CB40D0026332F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32E03CBE195CB40D0026332F /* FB Messages */,
+				32E03CD9195CB40D0026332F /* FB MessagesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32E03CBD195CB40D0026332F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E03CF5195CB41D0026332F /* NewsfeedViewController.xib in Resources */,
+				32E03CCD195CB40D0026332F /* InfoPlist.strings in Resources */,
+				32E03CD5195CB40D0026332F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E03CD8195CB40D0026332F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E03CE6195CB40D0026332F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32E03CBB195CB40D0026332F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E03CD3195CB40D0026332F /* AppDelegate.m in Sources */,
+				32E03CF4195CB41D0026332F /* NewsfeedViewController.m in Sources */,
+				32E03CCF195CB40D0026332F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32E03CD6195CB40D0026332F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32E03CE8195CB40D0026332F /* FB_MessagesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32E03CE0195CB40D0026332F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32E03CBE195CB40D0026332F /* FB Messages */;
+			targetProxy = 32E03CDF195CB40D0026332F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32E03CCB195CB40D0026332F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E03CCC195CB40D0026332F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32E03CE4195CB40D0026332F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32E03CE5195CB40D0026332F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32E03CE9195CB40D0026332F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32E03CEA195CB40D0026332F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32E03CEC195CB40D0026332F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FB Messages/FB Messages-Prefix.pch";
+				INFOPLIST_FILE = "FB Messages/FB Messages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32E03CED195CB40D0026332F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FB Messages/FB Messages-Prefix.pch";
+				INFOPLIST_FILE = "FB Messages/FB Messages-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		32E03CEF195CB40D0026332F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FB Messages.app/FB Messages";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FB Messages/FB Messages-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FB MessagesTests/FB MessagesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		32E03CF0195CB40D0026332F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FB Messages.app/FB Messages";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FB Messages/FB Messages-Prefix.pch";
+				INFOPLIST_FILE = "FB MessagesTests/FB MessagesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32E03CBA195CB40D0026332F /* Build configuration list for PBXProject "FB Messages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E03CE9195CB40D0026332F /* Debug */,
+				32E03CEA195CB40D0026332F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32E03CEB195CB40D0026332F /* Build configuration list for PBXNativeTarget "FB Messages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E03CEC195CB40D0026332F /* Debug */,
+				32E03CED195CB40D0026332F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32E03CEE195CB40D0026332F /* Build configuration list for PBXNativeTarget "FB MessagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32E03CEF195CB40D0026332F /* Debug */,
+				32E03CF0195CB40D0026332F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32E03CB7195CB40D0026332F /* Project object */;
+}
