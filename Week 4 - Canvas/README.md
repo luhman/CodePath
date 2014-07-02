@@ -20,3 +20,4 @@ Assignment Checklist
 Preview
 ========
 
+<a href="https://github.com/luhman/CodePath/blob/master/Week%204%20-%20Canvas/hw4%20canvas.gif" target="_blank"><img src="https://raw.githubusercontent.com/luhman/CodePath/master/Week%204%20-%20Canvas/hw4%20canvas.gif" style="max-width:100%;" /></a>
