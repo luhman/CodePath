@@ -11,6 +11,9 @@
 @interface NewsfeedViewController ()
 @property (weak, nonatomic) IBOutlet UIView *newsFeed;
 @property (weak, nonatomic) IBOutlet UIScrollView *newsFeedScroll;
+- (IBAction)onDarren:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIImageView *chatHead;
+- (IBAction)onChatHeadPan:(UIPanGestureRecognizer *)sender;
 
 @end
 
@@ -48,15 +51,16 @@
     
     self.navigationItem.rightBarButtonItem = rightButton;
     
-    
-    
-    
     // Set Height for Newsfeed Scroll View
     self.newsFeedScroll.contentSize = CGSizeMake(320, 1200);
     
     
     // Move Newsfeeds over to left // back to original state
     self.newsFeed.center = CGPointMake(160, self.newsFeed.center.y);
+    
+    // Chat Head
+    
+    self.chatHead.hidden = YES;
 
     
     
@@ -86,4 +90,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onDarren:(UIButton *)sender {
+    NSLog(@"Don't tell Darren");
+}
+- (IBAction)onChatHeadPan:(UIPanGestureRecognizer *)sender {
+    NSLog(@"Chat Head Panning");
+    
+}
 @end

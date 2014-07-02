@@ -6,6 +6,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewsfeedViewController">
             <connections>
+                <outlet property="chatHead" destination="25T-ud-HYF" id="41t-Lw-GeG"/>
                 <outlet property="newsFeed" destination="Jlf-GD-0Za" id="QGK-ol-jJx"/>
                 <outlet property="newsFeedScroll" destination="hq9-GW-76D" id="IUn-MW-sWi"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
@@ -30,6 +31,9 @@
                             <state key="normal">
                                 <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                             </state>
+                            <connections>
+                                <action selector="onDarren:" destination="-1" eventType="touchUpInside" id="SuS-WF-K5Q"/>
+                            </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -60,14 +64,33 @@
                     <rect key="frame" x="0.0" y="524" width="320" height="44"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chathead" id="25T-ud-HYF">
+                    <rect key="frame" x="239" y="28" width="61" height="62"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="Xg3-br-2dD" appends="YES" id="9R9-58-H51"/>
+                    </connections>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hide_target" id="Pf3-OP-r3g">
+                    <rect key="frame" x="132" y="472" width="57" height="54"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
+        <panGestureRecognizer minimumNumberOfTouches="1" id="Xg3-br-2dD">
+            <connections>
+                <action selector="onChatHeadPan:" destination="-1" id="aRk-wH-HeR"/>
+            </connections>
+        </panGestureRecognizer>
     </objects>
     <resources>
+        <image name="chathead" width="61" height="62"/>
         <image name="hamburger_menu" width="275" height="461"/>
+        <image name="hide_target" width="57" height="54"/>
         <image name="newfeed_top_bar" width="320" height="45"/>
         <image name="newsfeed" width="320" height="1348"/>
         <image name="tab_bar" width="320" height="44"/>
