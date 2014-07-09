@@ -27,4 +27,4 @@ strong>Tumblr Demo</strong>
 Preview
 ========
 
-<a href="https://github.com/luhman/CodePath/blob/master/Week%204%20-%20Canvas/hw4%20canvas.gif" target="_blank"><img src="https://raw.githubusercontent.com/luhman/CodePath/master/Week%204%20-%20Canvas/hw4%20canvas.gif" style="max-width:100%;" /></a>
+<a href="https://github.com/luhman/CodePath/blob/master/Week%205%20-%20UIKit%20Dynamics/tumblr/tumblr.gif" target="_blank"><img src="https://raw.githubusercontent.com/luhman/CodePath/master/Week%205%20-%20UIKit%20Dynamics/tumblr/tumblr.gif" style="max-width:100%;" /></a>
